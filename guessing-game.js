@@ -7,7 +7,9 @@ In this file, you will also include the event listeners that are needed to inter
 a user clicks a button or adds a guess to the input field.
 
 */
-
+/**
+ * time to test this out.
+ */
 function shuffle(array) {
   var m = array.length,
     t,
