@@ -144,6 +144,13 @@ document
       "no-repeat, radial-gradient(#3c1050, #000000)";
     document.getElementById("title").style.textShadow =
       "0 0 40px#d1e84e, 0 0 70px #d1e84e,0 0 80px #d1e84e, 0 0 100px #d1e84e, 0 0 150px #d1e84e";
+    document.getElementById("guess1").textContent = "☆☆☆";
+    document.getElementById("guess5").textContent = "☆☆☆";
+    document.getElementById("guess2").textContent = "☆☆☆";
+    document.getElementById("guess3").textContent = "☆☆☆";
+    document.getElementById("guess4").textContent = "☆☆☆";
+
+    return displayMessage("Would you like to play a game???");
   });
 
 document.getElementById("hintbutton").addEventListener("click", function () {
