@@ -1,0 +1,51 @@
+/* Write your CSS code in this file */
+html {
+  height: 200%;
+}
+#title {
+  font-family: "Bungee Outline", cursive;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px#d1e84e,
+    0 0 70px #d1e84e, 0 0 80px #d1e84e, 0 0 100px #d1e84e, 0 0 150px #d1e84e;
+  font-size: 90px;
+  color: white;
+  padding-bottom: 10px;
+}
+.previousguesses {
+  text-align: center;
+  color: white;
+  list-style-position: inside;
+  font-size: 20px;
+  margin: 5px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: radial-gradient(#3c1050, #000000);
+}
+#outer {
+  width: 100%;
+  text-align: center;
+}
+.inner {
+  display: inline-block;
+}
+#guessbutton {
+  position: center;
+}
+.container {
+  position: center;
+}
+#displaymssg {
+  font-family: "Nothing You Could Do", cursive;
+  color: white;
+  text-align: center;
+}
+
+#guess1,
+#guess2,
+#guess3,
+#guess4,
+#guess5 {
+  font-family: "Nothing You Could Do", cursive;
+}
